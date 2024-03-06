@@ -9,7 +9,7 @@ function getUid() {
 
     bgLoader.style.display = 'block';
 
-    var apiUrl = 'https://api.ducknha.com/api.php?id=' + encodeURIComponent(link);
+    var apiUrl = 'https://api.ducknha.site/api.php?id=' + encodeURIComponent(link);
 
     fetch(apiUrl)
         .then(response => response.json())
